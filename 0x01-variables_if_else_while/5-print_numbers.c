@@ -2,11 +2,12 @@
 #include <unistd.h>
 
 /**
- * main - Entry point
+ * main - main function
  *
  * Description - prints single-digit numbers in base 10
- * Return - Always 0 (success)
+ * Return: always 0
  */
+
 int main(void)
 {
 	int a;
