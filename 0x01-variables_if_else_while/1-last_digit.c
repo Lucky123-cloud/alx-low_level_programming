@@ -5,10 +5,11 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - Checks on the last digit of the assigned var
+ * main - main function
  *
- * Return - Always 0
+ * Return: always 0
  */
+
 int main(void)
 {
 		int n, m;
