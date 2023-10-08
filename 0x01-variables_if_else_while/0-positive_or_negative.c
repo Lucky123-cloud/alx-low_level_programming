@@ -5,9 +5,10 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - Prints random number decides whether positive, negative or zero
+ * main - Entry point
  *
- * Return : Always 0
+ * Description - Prints random number decides whether positive, negative zero
+ * Return : Always 0 (success)
  *
  */
 int main(void)

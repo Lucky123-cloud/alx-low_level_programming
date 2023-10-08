@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - prints single-digit numbers in base 10
+ * main - Entry point
  *
- * Return - Always 0
+ * Description - prints single-digit numbers in base 10
+ * Return - Always 0 (success)
  */
 int main(void)
 {
