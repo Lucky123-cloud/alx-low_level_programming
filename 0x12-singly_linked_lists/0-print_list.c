@@ -10,18 +10,18 @@
 
 size_t print_list(const list_t *h)
 {
-const list_t *cursor = h;
-size_t count = 0;
+const list_t *c = h;
+size_t counted = 0;
 
-while (cursor != NULL)
+while (c != NULL)
 {
-if (cursor->str != NULL)
-printf("[%d] %s\n", cursor->len, cursor->str);
+if (c->str != NULL)
+printf("[%d] %s\n", c->len, c->str);
 else
 printf("[0] (nil)\n");
-count += 1;
-cursor = cursor->next;
+counted += 1;
+c = c->next;
 }
 
-return (count);
+return (counted);
 }
